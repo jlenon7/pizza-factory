@@ -1,12 +1,18 @@
 import pizzas.Pizza;
-import pizzeria.Pizzeria;
+import pizzeria.PizzeriaA;
+import pizzeria.PizzeriaB;
 
 public class Test {
 	public static void main(String[] args) throws Exception {
 
-		Pizzeria pizzeria = new Pizzeria();
-		Pizza pizza = pizzeria.orderPizza("portuguese");
+		PizzeriaA pizzeriaA = new PizzeriaA();
+		Pizza portuguese = pizzeriaA.orderPizza("portuguese");
 		
-		System.out.println("João Ordered " + pizza.getNome());
+		System.out.println("João Ordered " + portuguese.getNome());
+
+		PizzeriaB pizzeriaB = new PizzeriaB();
+		Pizza fourCheeses = pizzeriaB.orderPizza("fourCheeses");
+
+		System.out.println("João Ordered " + fourCheeses.getNome());
 	}
 }
