@@ -1,11 +1,11 @@
-package ingredientes.cobertura;
+package ingredients.cobertura;
 
 public class Pimentao implements Cobertura {
 
 	@Override
 	public String getNome() {
 		// TODO Auto-generated method stub
-		return "Pimentão";
+		return "Pimentï¿½o";
 	}
 
 }

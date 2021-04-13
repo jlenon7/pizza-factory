@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ingredientes.cobertura;
+package ingredients.cobertura;
 
 public interface Cobertura {
 	

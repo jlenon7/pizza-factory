@@ -1,4 +1,4 @@
-package ingredientes.marisco;
+package ingredients.marisco;
 
 public class MariscoFresco implements Marisco {
 

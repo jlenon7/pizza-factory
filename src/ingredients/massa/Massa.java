@@ -1,4 +1,4 @@
-package ingredientes.massa;
+package ingredients.massa;
 
 public interface Massa {
 	

@@ -1,18 +1,19 @@
-package factories;
+package pizzeria.PizzeriaA;
 
-import ingredientes.cobertura.Alho;
-import ingredientes.cobertura.Cebola;
-import ingredientes.cobertura.Cobertura;
-import ingredientes.marisco.Marisco;
-import ingredientes.marisco.MariscoCongelado;
-import ingredientes.massa.Massa;
-import ingredientes.massa.MassaFina;
-import ingredientes.molho.Molho;
-import ingredientes.molho.MolhoDeTomate;
-import ingredientes.pepperoni.Pepperoni;
-import ingredientes.pepperoni.PepperoniFatiado;
-import ingredientes.queijo.Mussarela;
-import ingredientes.queijo.Queijo;
+import ingredients.cobertura.Alho;
+import ingredients.cobertura.Cebola;
+import ingredients.cobertura.Cobertura;
+import ingredients.marisco.Marisco;
+import ingredients.marisco.MariscoCongelado;
+import ingredients.massa.Massa;
+import ingredients.massa.MassaFina;
+import ingredients.molho.Molho;
+import ingredients.molho.MolhoDeTomate;
+import ingredients.pepperoni.Pepperoni;
+import ingredients.pepperoni.PepperoniFatiado;
+import ingredients.queijo.Mussarela;
+import ingredients.queijo.Queijo;
+import pizzeria.IngredientsFactory;
 
 import java.util.ArrayList;
 

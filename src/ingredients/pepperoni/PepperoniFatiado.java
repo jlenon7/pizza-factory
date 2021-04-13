@@ -1,4 +1,4 @@
-package ingredientes.pepperoni;
+package ingredients.pepperoni;
 
 public class PepperoniFatiado implements Pepperoni {
 

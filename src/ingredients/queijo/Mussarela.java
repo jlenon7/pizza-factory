@@ -1,4 +1,4 @@
-package ingredientes.queijo;
+package ingredients.queijo;
 
 public class Mussarela implements Queijo {
 

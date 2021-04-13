@@ -1,4 +1,4 @@
-package ingredientes.marisco;
+package ingredients.marisco;
 
 public interface Marisco {
 	

@@ -1,4 +1,4 @@
-package ingredientes.molho;
+package ingredients.molho;
 
 public class MolhoDeTomate implements Molho {
 

@@ -1,13 +1,27 @@
 package pizzas;
 
+import pizzeria.IngredientsFactory;
+
 public class Portuguese extends Pizza {
-	public Portuguese() {
-		this.nome = "Pizza Portuguesa";
-		this.massa = "Fina";
-		this.molho = "Tomate";
-		this.cobertura.add("Presunto");
-		this.cobertura.add("Cebola");
-		this.cobertura.add("Ovo");
-		this.cobertura.add("Queijo");
+	IngredientsFactory ingredients;
+
+	public Portuguese(IngredientsFactory ingredients) {
+		this.setNome("Portuguesa");
+
+		this.ingredients = ingredients;
+	}
+
+	public void preparar() {
+		System.out.println("===================================");
+		System.out.println("\nPreparando " + this.nome);
+
+		this.massa = ingredients.criarMassa();
+		System.out.println("\nMassa: " + this.massa.getNome());
+
+		this.molho = ingredients.criarMolho();
+		System.out.println("\nMolho: " + this.molho.getNome());
+
+		this.queijo = ingredients.criarQueijo();
+		System.out.println("\nQueijo: " + this.queijo.getNome());
 	}
 }

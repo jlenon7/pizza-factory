@@ -1,4 +1,4 @@
-package ingredientes.cobertura;
+package ingredients.cobertura;
 
 public class Alho implements Cobertura {
 

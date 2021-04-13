@@ -1,11 +1,11 @@
-package factories;
+package pizzeria;
 
-import ingredientes.cobertura.Cobertura;
-import ingredientes.marisco.Marisco;
-import ingredientes.massa.Massa;
-import ingredientes.molho.Molho;
-import ingredientes.pepperoni.Pepperoni;
-import ingredientes.queijo.Queijo;
+import ingredients.cobertura.Cobertura;
+import ingredients.marisco.Marisco;
+import ingredients.massa.Massa;
+import ingredients.molho.Molho;
+import ingredients.pepperoni.Pepperoni;
+import ingredients.queijo.Queijo;
 
 import java.util.ArrayList;
 
